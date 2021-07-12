@@ -1,5 +1,7 @@
-AppCenter: https://github.com/microsoft/appcenter-sdk-unity/issues/496
-Azure Spatial Anchors: https://github.com/Azure/azure-spatial-anchors-samples/issues/272
+Example of a conflict between Azure Spatial Anchors SDK and App Center SDK. We eported issue to both projects:
+
+* AppCenter: https://github.com/microsoft/appcenter-sdk-unity/issues/496
+* Azure Spatial Anchors: https://github.com/Azure/azure-spatial-anchors-samples/issues/272
 
 # Unity Sample
 
