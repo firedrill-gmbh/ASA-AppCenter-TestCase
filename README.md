@@ -1,4 +1,4 @@
-Example of a conflict between Azure Spatial Anchors SDK and App Center SDK. We reported issue to both projects:
+Example of a conflict between Azure Spatial Anchors SDK and App Center SDK. We reported this issue to both projects:
 
 * AppCenter: https://github.com/microsoft/appcenter-sdk-unity/issues/496
 * Azure Spatial Anchors: https://github.com/Azure/azure-spatial-anchors-samples/issues/272
