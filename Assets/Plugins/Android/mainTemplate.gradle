@@ -4,16 +4,10 @@ apply plugin: 'com.android.library'
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation('com.squareup.okhttp3:okhttp:[3.11.0]')
-    implementation('com.microsoft.appcenter:appcenter-analytics:[1.10.0]'){
-    }
 **DEPS**
-	//Adding this does not work
-    // Azure Spatial Anchors
-    //implementation ("com.microsoft.azure.spatialanchors:spatialanchors_ndk:[2.9.0]") {
-    //    exclude group: 'com.google.ar'
-    //    exclude group: 'com.microsoft.appcenter'
-    //}
-    //natives "com.microsoft.azure.spatialanchors:spatialanchors_ndk:[2.9.0]"
+    implementation(name: 'spatialanchors_ndk', ext:'aar') {
+       exclude group: 'com.microsoft.appcenter'
+    }
 }
 
 android {
