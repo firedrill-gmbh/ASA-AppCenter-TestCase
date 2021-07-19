@@ -4,6 +4,8 @@ apply plugin: 'com.android.library'
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation('com.squareup.okhttp3:okhttp:[3.11.0]')
+    //This is necessary otherwise build will fail. My guess is something in the ASA SDK is searching for it but does not care that its commented-out.
+    //implementation('com.microsoft.appcenter:appcenter-analytics:[1.10.0]')
 **DEPS**
     implementation(name: 'spatialanchors_ndk', ext:'aar') {
        exclude group: 'com.microsoft.appcenter'
